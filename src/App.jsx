@@ -4,6 +4,9 @@ import { ScrollTrigger, SplitText } from "gsap/all";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import CockTail from "./Components/CockTail";
+import About from "./Components/About";
+import Art from "./Components/Art";
+import Menu from "./Components/Menu ";
 
 
 
@@ -16,7 +19,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <CockTail />
-      <div className="h-dvh bg-black" />
+      <About />
+      <Art/>
+      <Menu />
     </main>
   )
 }
